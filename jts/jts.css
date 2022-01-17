@@ -1,0 +1,3 @@
+.active, ul li:hover {
+    border-top: 2px solid #5dade2;
+    border-bottom: 2px solid #5dade2;
