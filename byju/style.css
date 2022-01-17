@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg.jpg);
+}
+
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(173, 31, 166);
+
+}
+.logo img {
+    width: 200px;
+    height: 70px;
+    margin-left: 30px;
+}
+.login {
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(173, 31, 166);
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+    color:rgb(173, 31, 166) ;
+    font-weight: 700;
+}
+nav ul li a:hover {
+    color: rgb(9, 243, 87);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.login:hover {
+    background: rgb(9, 243, 87);
+    color: black;
+}
+.part1 {
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 35%;
+    padding: 10px;
+}
+.part1 h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+
+}
+.part1 p{
+    font-size: 18px;
+}
+.box1 {
+    width: 90%;
+    margin: 0 auto;
+    background: gainsboro;
+    height: 330px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 12px rgb(194, 191, 191);
+
+    top: 30%;
+    margin-bottom: 50px;
+}
+.top {
+    background: linear-gradient(115deg,rgb(66, 148, 243) 60%, rgb(209, 77, 202));
+    color: white;
+    font-size: 20px;
+    width: 150px;
+   text-align: center;
+   padding: 5px;
+   margin: 0 auto;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+}
+.main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.left {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.left1 img {
+    margin-left: 10px;
+    width: 220px;
+}
+.left2 img {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.right {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.right::before {
+    width: 2px;
+    height: 300px;
+    color: black;
+}
+.buttom {
+    background: linear-gradient(to left,rgb(238, 152, 22), rgb(238, 93, 125));
+    color: white;
+    font-size: 25px;
+    width: 200px;
+   text-align: center;
+   padding: 5px;
+   margin: 0 auto;
+   cursor: pointer;
+   border-radius: 5px;
+   bottom: 20px;
+}
+.box2 {
+    width: 90%;
+    margin: 0 auto;
+    background: gainsboro;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 12px rgb(194, 191, 191);
+
+    top: 30%;
+}
+.main1 {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+.left0 {
+    margin-top: 20px;    
+    margin-left: 40px;
+}
+.left0 img{
+    width: 250px;
+    height: 150px;
+    margin-left: 90px;
+}
+.right0 {
+    margin-top: 20px;    
+    margin-left: 40px;
+}
+.right0 img {
+    width: 250px;
+    height: 150px;
+    margin-left: 90px;
+}
+.mid {
+    display: flex;
+    justify-content: center;
+}
+.mid img {
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+}
+.left0 h3,.right0 h3 {
+    background: linear-gradient(to left,rgb(238, 152, 22), rgb(238, 93, 125));
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+   text-align: center;
+   padding: 7px;
+   cursor: pointer;
+   border-radius: 5px;
+   bottom: 20px;
+   margin-left: 140px;
+}
+.main1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.boxes {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-top: 50px;
+
+
+
+
+}
+.box3,.box4 {
+    background:gainsboro ;
+    width: 570px;
+    border-radius: 5px;
+    height: 300px;
+    box-shadow: 5px 10px 12px rgb(194, 191, 191);
+
+}
+.box3 {
+    margin-left: 65px;
+}
+.box4 {
+    margin-left: 165px;
+}
+.box3 .top {
+    font-size: 20px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+.box3-main {
+    height: 330px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.box3-main img {
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+}
+.box4 .top {
+        font-size: 20px;
+        width: 120px;
+        margin-bottom: 20px;
+}
+.box3-main .two img {
+    width: 150px;
+    height: 70px;
+}
+.boxes .explore h3 {
+    background: linear-gradient(to left,rgb(238, 152, 22), rgb(238, 93, 125));
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+   text-align: center;
+   padding: 7px;
+   cursor: pointer;
+   border-radius: 5px;
+   bottom: 10px;
+   margin-left: 30px;
+}
+.boxes p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
