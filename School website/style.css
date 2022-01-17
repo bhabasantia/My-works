@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  position: fixed;
+}
+nav h1 {
+    font-size: 40px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-left: 50px;
+}
+nav h1 span {
+    color: rgb(255, 179, 0);
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    justify-content: space-around;
+    margin: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 8px 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+nav ul li a:hover {
+    outline: 2px solid rgb(255, 179, 0);
+    overflow: hidden;
+
+}
+.part1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.part1 .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.part1 .content p {
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+.part1 .content h1 {
+    font-size: 65px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.part1 .content h1 span {
+    color: rgb(255, 179, 0);
+}
+.discover {
+    background: rgb(255, 179, 0) ;
+    padding: 7px 10px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* .list {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+   display: flex;
+   justify-content: space-around;
+  
+    
+}
+/* .box {
+    padding: 20px;
+    background: rgb(24, 22, 27);
+    width: 300px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin:10px;
+} */
+/* .box p {
+    display: none;
+} */
+  /* .box:hover {
+    background: rgb(255, 179, 0);
+
+} */
+/* .sec-1:hover  .p1 {
+   display: block;
+    transition: 0.5s;
+}  */
+ .list{
+    display: flex;
+    justify-content: space-around;
+   /* position: fixed;           */
+   top: 100px;
+   width: 100%;       
+   overflow: hidden;
+   background: coral;
+} 
+.box{          
+    width: 300px;
+    transform: translate(0,115px);
+    padding: 10px;
+    transition: 1s;           
+}
+.box:hover{
+    transform: translate(0,0);
+    background-color: aquamarine;
+    overflow: visible;         
+}
+.box h1{
+   padding: 10px 0;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+
+

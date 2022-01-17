@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   .list{
+    display: flex;
+    justify-content: space-around;
+   position: absolute;
+   width: 100%;       
+   overflow: hidden;
+   /* background: coral; */
+   bottom: 10px;
+} 
+.box{          
+    width: 300px;
+    transform: translate(0,115px);
+    padding: 15px;
+    transition: 1s;           
+}
+.box:hover{
+    transform: translate(0,0);
+    background-color: aquamarine;
+    overflow: visible;         
+}
+.box h1{
+   padding: 10px 0;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="nm">
+        <span></span>
+    </div>
+    <hr>
+    <div class="list">
+        <div class="box sec-1">
+            <h1 class="heading"><i class="fas fa-pencil-alt"></i> All Courses</h1>
+            <P class="p1">Lorem, ipsum dolor sit amet consectetur Ipsa consectetur cupiditate quos, reprehenderit
+                fuga a eum velit, facere nam sequi placeat eos!</P>
+        </div>
+        <div class="box sec-2">
+            <h1 class="heading"></i><i class="fas fa-graduation-cap"></i> Virtual Class</h1>
+            <P class="p2">Lorem, ipsum dolor sit amet consectetur Ipsa consectetur cupiditate quos, reprehenderit
+                fuga a eum velit, facere nam sequi placeat eos!</P>
+
+        </div>
+        <div class="box sec-3">
+            <h1 class="heading"> <i class="fas fa-book"></i> Real Meeting</h1>
+            <P class="p3">Lorem, ipsum dolor sit amet consectetur Ipsa consectetur cupiditate quos, reprehenderit
+                fuga a eum velit, facere nam sequi placeat eos! fuga a eum velit, facere nam sequi placeat eos! fuga a eum velit, facere nam sequi placeat eos!</P>
+
+        </div>
+    </div>
+</body>
+</html>
